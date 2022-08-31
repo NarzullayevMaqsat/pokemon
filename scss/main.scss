@@ -1,0 +1,68 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1920px;
+    height: 1710px;
+    border: 1px solid;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-direction: column;
+    background-color:#FFD845;
+    font-family: "calibri";
+
+
+        .buttons-row{
+            width: 600px;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+
+                button{
+                    border-radius: 10px;
+                    width: 120px;
+                    background-color: #ffffff;
+                    font-weight: 600;
+                    border: none;
+                    cursor: pointer;
+                }
+        }
+
+        .sect-centr{
+            width: 1400px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+
+
+                .menu-item{
+                    width: 307px;
+                    height: 423px;
+                    flex-direction: row;
+                    background-color: #ffffff;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    cursor: pointer;
+                    justify-content: center;
+                    padding-left: 20px;
+                    border-radius: 20px;
+                    flex-direction: column;
+
+                        .item-info{
+                            text-align: left;
+                            display: flex;
+                            justify-content: left;
+                            flex-direction: column;
+                            width: 247px;
+                            height: 109px;
+                        }
+                      
+                }
+        }
+}
